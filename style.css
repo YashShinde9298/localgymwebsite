@@ -36,6 +36,7 @@ a {
 
 .links :hover {
     color: #3fffb9;
+    text-shadow: 0 0 3px #3fffb9;
 }
 
 .front {
@@ -79,11 +80,13 @@ a {
     background-color: #02b04a;
     color: white;
     font-weight: 700;
+    border: none;
 }
 
 .front-btn:hover {
     background-color: #00db5b;
     cursor: pointer;
+    box-shadow: 1px 1px 15px #02b04a;
 }
 
 .trans-btn {
@@ -100,6 +103,7 @@ a {
 .trans-btn:hover {
     background-color: rgba(240, 255, 255, 0.484);
     cursor: pointer;
+    box-shadow: 1px 1px 15px rgba(240, 255, 255, 0.484);
 }
 
 .description {
@@ -147,6 +151,11 @@ a {
 .feature-card {
     width: 300px;
     border-radius: 5px;
+}
+
+.feature-card:hover {
+    box-shadow: 1px 1px 30px rgb(134, 134, 134);
+    cursor: pointer;
 }
 
 .fitness {
@@ -266,6 +275,7 @@ a {
 .tagline-btn:hover {
     cursor: pointer;
     background-color: #00db5b;
+    box-shadow: 1px 1px 15px #02b04a;
 }
 
 .benefits-info {
@@ -345,6 +355,7 @@ a {
 .m-card1:hover {
     cursor: pointer;
     background-color: rgb(77, 77, 77);
+    box-shadow: 2px 2px 15px rgb(77, 77, 77);
 }
 
 .m-card2 {
@@ -361,6 +372,7 @@ a {
 .m-card2:hover {
     cursor: pointer;
     background-color: rgb(219, 219, 219);
+    box-shadow: 2px 2px 15px white;
 }
 
 .card-title {
