@@ -1,0 +1,533 @@
+body {
+    /* width: 100%; */
+    font-family: 'Arvo', serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navbar {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    height: 90px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 21px;
+
+}
+
+.gym-name {
+    color: #02b04a;
+    font-size: 35px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    color: white;
+}
+
+.links :hover {
+    color: #3fffb9;
+}
+
+.front {
+    display: grid;
+    background-image: url('./img/photo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    font-size: 60px;
+    background: linear-gradient(to right, #03fa62, #3fffb9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.headline1 {
+    color: white;
+    font-size: 50px;
+    margin-top: -380px;
+    margin-left: 38px;
+    font-weight: 800;
+    margin-bottom: -65px;
+}
+
+.btn-div {
+    display: flex;
+    margin-top: -405px;
+    justify-content: space-around;
+}
+
+.front-btn {
+    height: 60px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: #02b04a;
+    color: white;
+    font-weight: 700;
+}
+
+.front-btn:hover {
+    background-color: #00db5b;
+    cursor: pointer;
+}
+
+.trans-btn {
+    height: 60px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: 1px solid rgb(164, 164, 164);
+}
+
+.trans-btn:hover {
+    background-color: rgba(240, 255, 255, 0.484);
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+}
+
+.description1 {
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.desc-txt {
+    font-size: 50px;
+    background: linear-gradient(to right, #03fa62, #3fffb9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    height: fit-content;
+}
+
+.desc-txt1 {
+    color: white;
+    font-size: 50px;
+}
+
+.description2 {
+    flex: 50%;
+    padding-left: 250px;
+    padding-top: 70px;
+}
+
+.desc-txt2 {
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}
+
+.features {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 32, 32);
+}
+
+.feature-card {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.fitness {
+    background-image: url('./img/fitness.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt {
+    background-image: url('./img/pt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxing {
+    background-image: url('./img/boxing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kettlebell {
+    background-image: url('./img/./kettlebell.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fitness-info {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: italic;
+    padding-left: 55px;
+    padding-top: 290px;
+}
+
+.pt-info {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 28px;
+    padding-left: 21px;
+    padding-top: 290px;
+}
+
+.boxing-info {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: italic;
+    padding-top: 290px;
+    padding-left: 45px;
+}
+
+.kettlebell-info {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: italic;
+    padding-top: 290px;
+    padding-left: 30px;
+}
+
+.marquee-div {
+    height: 150px;
+    background-color: rgb(32, 32, 32);
+}
+
+.marquee-txt {
+    font-size: 80px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 01px;
+    -webkit-text-stroke-color: rgb(134, 134, 134);
+    color: transparent;
+    padding-top: 10px;
+}
+
+.benefits {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+}
+
+
+.benefits-tagline {
+    margin-left: 40px;
+}
+
+
+.colourful-tagline {
+    font-size: 50px;
+    background: linear-gradient(to right, #03fa62, #3fffb9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.tagline {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.tagline-btn {
+    height: 60px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #02b04a;
+    color: white;
+    font-weight: 500;
+}
+
+.tagline-btn:hover {
+    cursor: pointer;
+    background-color: #00db5b;
+}
+
+.benefits-info {
+    flex: 50%;
+    display: grid;
+    padding-left: 130px;
+    padding-top: 40px;
+}
+
+.benefits-desc {
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+}
+
+.benefits-txt {
+    display: flex;
+    font-size: 22px;
+}
+
+.b2 {
+    margin-left: 100px;
+}
+
+.checked {
+    color: #02b04a;
+}
+
+.membership-div {
+    height: 950px;
+    padding-top: 50px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+.m-colourful {
+    font-size: 50px;
+    background: linear-gradient(to right, #03fa62, #3fffb9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.m-normal {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: -50px;
+}
+
+.m-txt {
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.m-cardsdiv {
+    height: 500px;
+}
+
+.m-cardchild {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.m-card1 {
+    height: 200px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    border-radius: 9px;
+}
+
+.m-card1:hover {
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+}
+
+.m-card2 {
+    height: 200px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    color: black;
+}
+
+.m-card2:hover {
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+}
+
+.card-title {
+    color: white;
+    font-size: 28px;
+}
+
+.card-title1 {
+    color: black;
+    font-size: 28px;
+}
+
+.card-desc {
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}
+
+.card-price {
+    color: #02b04a;
+    font-size: 55px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.m-desc {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.social-div {
+    text-align: center;
+}
+
+.colourful-social {
+    font-size: 50px;
+    background: linear-gradient(to right, #03fa62, #3fffb9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.normal-social {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: -50px;
+}
+
+.img-div {
+    display: flex;
+
+    height: 300px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.img-box1 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box2 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box3 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box4 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box5 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-box6 {
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    background-image: url('./img/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer {
+    height: 450px;
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+.footer-child {
+    width: 360px;
+}
+
+.about-heading {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.about-txt {
+    line-height: 1.8;
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+}
+
+.about-logo {
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(134, 134, 134);
+}
+
+.contact-txt {
+    font-size: 18px;
+    display: flex;
+}
+
+.contact-info {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.daytime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -18px;
+    margin-top: -18px;
+}
+
+.daytime-txt {
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+}
+
+.sunday {
+    color: #02b04a;
+    font-style: italic;
+}
