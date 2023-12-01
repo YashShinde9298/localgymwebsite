@@ -154,7 +154,7 @@ a {
 }
 
 .feature-card:hover {
-    box-shadow: 1px 1px 30px rgb(134, 134, 134);
+    box-shadow: 2px 2px 30px rgb(220, 220, 220);
     cursor: pointer;
 }
 
